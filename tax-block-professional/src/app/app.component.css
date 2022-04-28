@@ -1,0 +1,26 @@
+/* .appContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.subContainer{
+    margin: 0;
+    position: absolute;
+    top: 39%;
+    -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+} */
+
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+    margin-bottom: 0px !important;
+  }
+  
+  .container-fluid {
+    padding: 60px 50px;
+  }

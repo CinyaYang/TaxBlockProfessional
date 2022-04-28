@@ -1,0 +1,14 @@
+<div id = "services" class="container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="services">
+        <!--<app-service class="col-sm-4" *ngFor="let service of serviceList">
+        </app-service>-->
+        <!-- <h3>Country Name :{{service.serviceName}}, Code: {{service.pictureName}}</h3> -->
+        <div class="" *ngFor="let service of services">
+            <app-service [serviceInfo] = "service" ></app-service>
+        </div>
+    </div>
+    <app-additional-services></app-additional-services>
+</div>

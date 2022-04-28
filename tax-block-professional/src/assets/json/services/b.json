@@ -1,0 +1,25 @@
+{
+    "serviceName":"B serviceName",
+    "pictureName":"B pictureName",
+    "serviceDescription":"B serviceDescription",
+    "article":{
+        "topics":[{
+            "title":"title1",
+            "paragragh":[{
+                "line":"line11",
+                "points":["p11", "p12"]
+            }]
+        },
+        {
+            "title":"title2",
+            "paragragh":[{
+                "line":"line21",
+                "points":["p21"]
+            },
+            {
+                "line":"line22",
+                "points":[]
+            }]
+        }]
+    }
+}
