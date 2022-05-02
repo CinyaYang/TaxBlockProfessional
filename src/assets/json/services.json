@@ -1,0 +1,37 @@
+[{
+    "code":"individual-tax",
+    "serviceName":"Individual Tax",
+    "pictureName":"A pictureName",
+    "serviceDescription":"After years of serving clients, our experts have obtained the expertise to ensure that protect your earnings and achieve desired outcomes on your returns. Our mission is to minimize the taxes you pay as much as possible."
+},
+{
+    "code":"corporate-tax",
+    "serviceName":"Corporate Tax",
+    "pictureName":"B pictureName",
+    "serviceDescription":"Our firm has over a decade of experience in CCPCs, partnerships, sole proprietorships. Our experienced tax professionals who understand the distinct tax concerns would achieve desired outcomes on the returns."
+},
+{
+    "code":"bookkeeping-financial-statements",
+    "serviceName":"Bookkeeping & Financial Statements",
+    "pictureName":"B pictureName",
+    "serviceDescription":"We can offer as much help as individual needs, including accounts payable, accounts receivable, GST/HST Returns and reconciliation to bank records."
+},
+{
+    "code":"estate-planning-and-death-tax",
+    "serviceName":"Estate Planning And Death Tax",
+    "pictureName":"B pictureName",
+    "serviceDescription":"With a solid background in estate planning and other financial matters, we are fully qualified to address the complex issues of navigating estate process."
+},
+{
+    "code":"audit-attestation",
+    "serviceName":"Audit & Attestation",
+    "pictureName":"B pictureName",
+    "serviceDescription":"We provide the most thorough attestation services for our clients. We are always proud of that we put the best interest of our clients. We can help you determine the level of assurance most beneficial for your business and tailor the work to meet your needs."
+},
+{
+    "code":"payroll",
+    "serviceName":"Payroll",
+    "pictureName":"B pictureName",
+    "serviceDescription":"Our firm has over a decade of payroll experience including many complex payroll situations. Let us worry about the details."
+}
+]

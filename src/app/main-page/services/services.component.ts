@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import services from '../../../assets/json/services/services.json';
+import services from '../../../assets/json/services.json';
 // import { Service } from '../../models/Service';
 // import * as fs from 'fs';
 

@@ -1,4 +1,4 @@
-<div>
-    <app-article [articleDetail] = "service.article"></app-article>
+<div class="serviceDetail" *ngIf="!!article">
+    <app-article  [articleDetail] = "article"></app-article>
     <app-contact></app-contact>
 </div>

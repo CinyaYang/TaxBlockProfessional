@@ -1,0 +1,19 @@
+.article{
+    padding: 0px 15px 0px 15px;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 6px;
+  }
+
+.point{
+    margin: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }

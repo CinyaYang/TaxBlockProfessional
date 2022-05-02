@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import additionalServices from '../../../../assets/json/services/additionalServices.json';
+import additionalServices from '../../../../assets/json/additionalServices.json';
 
 @Component({
   selector: 'app-additional-services',

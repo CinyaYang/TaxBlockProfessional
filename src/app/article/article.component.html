@@ -1,10 +1,10 @@
-<div>
+<div class = "article">
     <div *ngFor="let topic of article.topics">
     <h2>{{topic.title}}</h2>
     <div *ngFor="let paragragh of topic.paragraghs">
         <p>{{paragragh.line}}</p>
         <div>
-            <div *ngFor="let point of paragragh.points">
+            <div class="point" *ngFor="let point of paragragh.points">
                 <span class="dot"></span>
                 <div>{{point}}</div>
             </div>

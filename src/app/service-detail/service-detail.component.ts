@@ -9,21 +9,29 @@ import { HttpClient } from "@angular/common/http";
   styleUrls: ['./service-detail.component.css']
 })
 export class ServiceDetailComponent implements OnInit {
-  service:any = null;
-  serviceName:any = null;
+  article:any = null;
+  code:any = null;
+  stats:any = false;
 
   constructor(private http:HttpClient, private actRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
     // this.service = this.serviceDetail;
     this.actRoute.paramMap.subscribe(params => {
-      this.serviceName = String(params.get('serviceName'));
+      this.code = String(params.get('code'));
     });
 
-    this.http.get("../../../../assets/json/services/"+this.serviceName+".json").subscribe(service =>{
-      // console.log(data);
-      this.service = service;
+    this.http.get("../../../../assets/json/articles/"+this.code+".json").subscribe(article =>{
+      
+      this.article = article;
+      this.stats = true;
+      console.log(article);
     })
+    
+  }
+
+  componentDidMount() {
+    
   }
 
 }
