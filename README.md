@@ -39,3 +39,8 @@ https://dashboard.tawk.to/?lang=en#/dashboard/62658db77b967b11798c4467
 pw: Moncton2014$
 
 ##steps to deploy and host on git:
+ng build --prod --baseHref=https://github.com/CinyaYang/TaxBlockProfessional
+git add .
+git commit -m "make the email function work"
+git push
+npx angular-cli-ghpages
