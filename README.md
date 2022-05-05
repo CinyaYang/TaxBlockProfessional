@@ -37,3 +37,5 @@ https://dashboard.tawk.to/?lang=en#/dashboard/62658db77b967b11798c4467
 
 ##taxblockprofessional@gmail.com
 pw: Moncton2014$
+
+##steps to deploy and host on git:

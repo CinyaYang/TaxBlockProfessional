@@ -1,8 +1,10 @@
-<h2>Additional Services</h2>
-<div class="additionalServices">
-    <div class="additionalService" *ngFor="let additionalService of additionalServices">
-        <span class="dot"></span>
-        <div>{{additionalService}}</div>
-        
+<div class="container">
+    <h2 class="text-center">Additional Services</h2>
+    <div class="additionalServices">
+        <div class="additionalService" *ngFor="let additionalService of additionalServices">
+            <div style="margin-right: 6px; display: flex; align-items: center;"><span class="dot"></span></div>
+            <div style="text-align:unset">{{additionalService}}</div> 
+        </div>
     </div>
 </div>
+

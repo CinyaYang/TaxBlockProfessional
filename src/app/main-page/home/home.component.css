@@ -1,0 +1,41 @@
+.home{
+    
+    margin: -66px -66px 0px -66px;
+    box-sizing: border-box;
+    
+}
+
+.backgroundImage{
+  background-image: url("./../../../assets/images/home.jpg");
+  height: 400px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: floralwhite;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(41, 38, 38);
+    color: white;
+    border-radius: 8px;
+    border-color: rgb(41, 38, 38);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
