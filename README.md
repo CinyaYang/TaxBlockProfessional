@@ -38,9 +38,30 @@ https://dashboard.tawk.to/?lang=en#/dashboard/62658db77b967b11798c4467
 ##taxblockprofessional@gmail.com
 pw: Moncton2014$
 
+
+ng generate service car --flat
 ##steps to deploy and host on git:
-ng build --prod --baseHref=https://github.com/CinyaYang/TaxBlockProfessional
+
 git add .
 git commit -m "make the email function work"
 git push
-npx angular-cli-ghpages
+ng deploy --baseHref=https://taxblockprofessional.com
+
+##email:
+https://privateemail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX
+
+hello@taxblockprofessional.com
+
+Moncton2014$
+
+
+##elastic email api key:
+CC441B93FAFCEEAF41D8E610BF174EBDDD96B6CA0DEEB8B29CB4308014D162784E655A0A5441A66890F78CF472960081
+backup code:414687
+
+##SMTP created.
+username:hello@taxblockprofessional.com
+password:E3E6C2E75C922CB7AAA0B32FD9CBF1528086
+server:smtp.elasticemail.com
+Port:2525
+

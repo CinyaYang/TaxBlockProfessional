@@ -12,9 +12,14 @@ import { AdditionalServicesComponent } from './main-page/services/additional-ser
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './main-page/navbar/navbar.component';
 import { ArticleComponent } from './article/article.component';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { ModalComponent } from './modal/modal.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './main-page/footer/footer.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
+import { ContactService } from './contact.service'
+
+// import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 @NgModule({
   declarations: [
@@ -29,6 +34,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     ArticleComponent,
     ModalComponent,
+    FooterComponent,
+    ThankYouComponent,
     
   ],
   imports: [
@@ -36,8 +43,9 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     FormsModule
+    // ,HttpClientInMemoryWebApiModule.forRoot()
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
