@@ -1,0 +1,38 @@
+.navbar {
+    margin-bottom: 0;
+    background-color:white;
+    /* background-color: #f4511e; */
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+    color: rgb(150, 144, 144) !important;
+    margin: 6px;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    border-radius: 8px;
+    color: white !important;
+    background-color: rgb(204, 221, 239) !important;
+    margin:6px;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  .promotion-bar{
+    background-color: blanchedalmond;
+  }
+
+  .logo{
+    height:46px;
+    margin-top: 8px;
+    margin-left: -21px;
+  }

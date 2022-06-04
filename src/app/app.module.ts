@@ -17,7 +17,6 @@ import { ModalComponent } from './modal/modal.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './main-page/footer/footer.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
-import { ContactService } from './contact.service'
 
 // import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
@@ -39,13 +38,13 @@ import { ContactService } from './contact.service'
     
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule,
     FormsModule
     // ,HttpClientInMemoryWebApiModule.forRoot()
   ],
-  providers: [ContactService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

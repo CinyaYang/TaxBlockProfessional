@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ContactService } from './../contact.service'
 import './../../assets/smtp.js'; //file path may change → 
 declare let Email: any;
 
@@ -10,7 +9,7 @@ declare let Email: any;
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.scss']
 })
 
 
@@ -25,7 +24,7 @@ export class ContactComponent implements OnInit {
   
   
 
-  constructor(private router: Router, private contactService: ContactService) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
