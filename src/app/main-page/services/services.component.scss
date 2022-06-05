@@ -2,6 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: -20px 15px 0 15px;
+}
+
+.services>*{
+    min-width: calc(33%);
+    display: flex;
+    justify-content: center;
 }
